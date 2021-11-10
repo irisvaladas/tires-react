@@ -1,0 +1,51 @@
+@import '../universal-styles.scss';
+@import '../variables.scss';
+
+.about-section {
+    text-align: center;
+    color: $heading1-clr;
+    background-color: $background-clr;
+}
+
+.company-synopsis {
+    font-size: 2rem;
+}
+
+.our-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.service1, .service2, .service3 {
+    border: 1px solid $border-main-clr;
+    border-radius: 2.5%;
+    width: 350px;
+    height: 375px;
+
+    .service-text-area {
+        width: 80%;
+        inset: 0;
+        margin: auto;
+
+        img {
+            border-radius: 50%;
+            width: 3rem;
+        }
+    
+        h2 {
+            font-size: 1rem;
+        }
+    
+        p {
+            font-size: $paragraph-fs;
+            color: $paragraph-clr;
+        }
+    
+        a {
+            font-size: 0.75rem;
+            color: $learn-more-btn-clr;
+        }
+    }
+}

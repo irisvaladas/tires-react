@@ -1,0 +1,8 @@
+@import '../universal-styles.scss';
+
+.navbar {
+    display: flex;
+    #company-logo {
+        max-height: 100%;
+    }
+}

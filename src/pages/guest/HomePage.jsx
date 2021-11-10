@@ -1,10 +1,12 @@
 import React from 'react';
 import NavBar from "../components/navBar/navBar"
+import AboutSection from '../components/about-section/about-section';
 
 export const HomePage = () => {
     return (
     <div>
-        <NavBar />
+        {/* <NavBar /> */}
+        <AboutSection />
     </div>
 
 )};

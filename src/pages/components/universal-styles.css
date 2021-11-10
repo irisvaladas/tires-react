@@ -53,14 +53,4 @@ table {
 html {
   font-size: 16px;
 }
-
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.navbar #company-logo {
-  max-height: 100%;
-}
-/*# sourceMappingURL=navBar.css.map */
+/*# sourceMappingURL=universal-styles.css.map */
