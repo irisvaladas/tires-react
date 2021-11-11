@@ -7,7 +7,7 @@ const navbar = () => {
     return (
         <div className="outDiv">
             <div className="logoDiv">
-                <img src={Logo}/>
+                <img src={Logo} alt="company logo" />
             </div>
             <div className="menu">
                 <Link to="/">About Us</Link>
@@ -15,8 +15,8 @@ const navbar = () => {
                 <Link to="/searchingPage">Services</Link>
             </div>
             <div className="buttons">
-                <Link to="../../guest/LoginPage"><button> Login </button></Link>
-                <Link to="../../guest/RegistrationPage"><button> Register </button></Link>
+                <Link to="../../guest/LoginPage"><button id="login"> Login </button></Link>
+                <Link to="../../guest/RegistrationPage"><button id="register"> Register </button></Link>
             </div>
         </div>
     );

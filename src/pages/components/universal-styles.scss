@@ -1,3 +1,6 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins&display=swap');
+
 /* Resets */
 
 html, body, div, span, applet, object, iframe,
@@ -48,4 +51,10 @@ table {
 
 html { 
 	font-size: 16px;
+}
+
+body {
+	background-color: $background-clr;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
 }

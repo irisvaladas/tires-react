@@ -1,10 +1,8 @@
 @import '../universal-styles.scss';
-@import '../variables.scss';
 
 .about-section {
     text-align: center;
     color: $heading1-clr;
-    background-color: $background-clr;
 }
 
 .company-synopsis {
@@ -32,6 +30,7 @@
         img {
             border-radius: 50%;
             width: 3rem;
+            margin: 10px;
         }
     
         h2 {

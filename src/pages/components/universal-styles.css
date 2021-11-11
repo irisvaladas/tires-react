@@ -1,3 +1,10 @@
+/* colours */
+/* primary */
+/* font colours */
+/* background */
+/* borders */
+/* sizes */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins&display=swap");
 /* Resets */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -52,5 +59,11 @@ table {
 /* Universal */
 html {
   font-size: 16px;
+}
+
+body {
+  background-color: #3B404E;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 /*# sourceMappingURL=universal-styles.css.map */
