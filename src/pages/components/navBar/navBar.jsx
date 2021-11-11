@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../../files/logo.jpg"
 import "./navBar.scss"
 
-const navbar = () => {
+const NavBar = () => {
     return (
         <div className="outDiv">
             <div className="logoDiv">
@@ -22,4 +22,4 @@ const navbar = () => {
     );
 };
 
-export default navbar;
+export default NavBar;
