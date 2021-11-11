@@ -15,8 +15,8 @@ const navbar = () => {
                 <Link to="/searchingPage">Services</Link>
             </div>
             <div className="buttons">
-                <Link to="../../guest/LoginPage"><button id="login"> Login </button></Link>
-                <Link to="../../guest/RegistrationPage"><button id="register"> Register </button></Link>
+                <Link to="../../guest/LoginPage"><button className="primary-btn1"> Login </button></Link>
+                <Link to="../../guest/RegistrationPage"><button className="primary-btn2"> Register </button></Link>
             </div>
         </div>
     );
