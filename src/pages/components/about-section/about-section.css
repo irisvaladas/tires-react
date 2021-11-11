@@ -70,10 +70,22 @@ body {
 .about-section {
   text-align: center;
   color: #fff;
+  border-bottom: 1px solid #737B92;
+  padding-bottom: 2rem;
 }
 
 .company-synopsis {
-  font-size: 2rem;
+  margin: 3rem auto;
+  width: 85%;
+}
+
+.company-synopsis h2 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.company-synopsis p {
+  font-size: 1.25rem;
 }
 
 .our-services {
@@ -91,8 +103,10 @@ body {
 .service1, .service2, .service3 {
   border: 1px solid #bababa;
   border-radius: 2.5%;
-  width: 350px;
-  height: 375px;
+  width: 300px;
+  height: 325px;
+  -webkit-box-shadow: -5px 5px 10px #2c2c2c;
+          box-shadow: -5px 5px 10px #2c2c2c;
 }
 
 .service1 .service-text-area, .service2 .service-text-area, .service3 .service-text-area {
@@ -103,21 +117,27 @@ body {
 
 .service1 .service-text-area img, .service2 .service-text-area img, .service3 .service-text-area img {
   border-radius: 50%;
-  width: 3rem;
-  margin: 10px;
+  width: 4rem;
+  margin: 1rem 0;
 }
 
 .service1 .service-text-area h2, .service2 .service-text-area h2, .service3 .service-text-area h2 {
   font-size: 1rem;
+  margin: 0.75rem 0;
 }
 
 .service1 .service-text-area p, .service2 .service-text-area p, .service3 .service-text-area p {
   font-size: 1rem;
   color: #000;
+  margin-bottom: 0.75rem;
 }
 
 .service1 .service-text-area a, .service2 .service-text-area a, .service3 .service-text-area a {
   font-size: 0.75rem;
   color: #bfc4fd;
+}
+
+.service1 .service-text-area a:hover, .service2 .service-text-area a:hover, .service3 .service-text-area a:hover {
+  color: #32DFCA;
 }
 /*# sourceMappingURL=about-section.css.map */
