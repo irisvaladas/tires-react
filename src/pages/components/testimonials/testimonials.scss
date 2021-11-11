@@ -1,0 +1,46 @@
+@import '../universal-styles.scss';
+
+.testimonials {
+    margin: 2rem 2rem 0;
+
+    h2 {
+        font-size: $heading2-fs;
+        text-transform: capitalize;
+    }
+}
+
+.testimonial-containers {
+    display: flex;
+}
+
+.testimonial1, .testimonial2 {
+    margin: 5rem;
+    display: flex;
+    flex-flow: column wrap;
+    img {
+        /* temp sizing */
+        height: 5rem;
+        width: 5rem;
+
+        border-radius: 50%;
+        padding: 1rem 0;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        padding: 1rem 0;
+    }
+
+    p {
+        font-size: 0.8rem;
+        line-height: 1.25;
+        &::before {
+            content: open-quote;
+            font-size: 1.25rem;
+        }
+        &::after {
+            content: close-quote;
+            font-size: 1.25rem;
+        }
+    }
+}

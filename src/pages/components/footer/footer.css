@@ -1,0 +1,148 @@
+/* colours */
+/* primary */
+/* font colours */
+/* background */
+/* borders */
+/* sizes */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins&display=swap");
+/* Resets */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Universal */
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #3B404E;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+  background-color: #464b58ad;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 0;
+  border-top: 1px solid #737B92;
+  border-bottom: 1px solid #737B92;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer nav img {
+  position: relative;
+  width: 40px;
+  background-color: #e00;
+}
+
+.footer nav .left-nav, .footer nav .right-nav {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.footer nav .left-nav ul, .footer nav .right-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+  font-size: 0.8rem;
+}
+
+.footer nav .left-nav ul a, .footer nav .right-nav ul a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.footer nav .left-nav ul a:hover, .footer nav .right-nav ul a:hover {
+  padding-bottom: 5px;
+  color: #737B92;
+}
+
+.footer-bottom {
+  padding: 3rem;
+  text-align: center;
+}
+
+.footer-bottom .socials img {
+  border-radius: 50%;
+  height: 1.75rem;
+  width: 1.75rem;
+  margin: 5px;
+}
+
+.footer-bottom p {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  padding: 0.5rem 0 1rem;
+}
+
+.footer-bottom #copyright {
+  font-size: 0.6rem;
+  color: #737B92;
+  padding: 1rem 0;
+}
+/*# sourceMappingURL=footer.css.map */

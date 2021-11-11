@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import Logo from "../../../files/logo.jpg"
 import "./navBar.scss"
 
-const navbar = () => {
+const NavBar = () => {
     return (
         <div className="outDiv">
             <div className="logoDiv">
-                <img src={Logo}/>
+                <img src={Logo} alt="company logo" />
             </div>
             <div className="menu">
                 <Link to="/">About Us</Link>
@@ -15,11 +15,11 @@ const navbar = () => {
                 <Link to="/searchingPage">Services</Link>
             </div>
             <div className="buttons">
-                <Link to="../../guest/LoginPage"><button> Login </button></Link>
-                <Link to="../../guest/RegistrationPage"><button> Register </button></Link>
+                <Link to="../../guest/LoginPage"><button className="primary-btn1"> Login </button></Link>
+                <Link to="../../guest/RegistrationPage"><button className="primary-btn2"> Register </button></Link>
             </div>
         </div>
     );
 };
 
-export default navbar;
+export default NavBar;

@@ -1,0 +1,152 @@
+/* colours */
+/* primary */
+/* font colours */
+/* background */
+/* borders */
+/* sizes */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins&display=swap");
+/* Resets */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Universal */
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #3B404E;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.outDiv {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #737B92;
+}
+
+.outDiv .logoDiv {
+  width: 17.5rem;
+  max-width: 200px;
+  position: relative;
+  text-align: center;
+}
+
+.outDiv .logoDiv img {
+  position: relative;
+  width: 40px;
+}
+
+.outDiv .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.5rem;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.outDiv .menu a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.outDiv .menu a:hover {
+  padding-bottom: 5px;
+  color: #737B92;
+}
+
+.outDiv .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.outDiv .buttons button {
+  padding: 10px;
+  height: 35px;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+  width: 5rem;
+  color: #fff;
+}
+
+.outDiv .buttons .primary-btn1 {
+  background-color: #737B92;
+}
+
+.outDiv .buttons .primary-btn2 {
+  background-color: #32DFCA;
+}
+/*# sourceMappingURL=navBar.css.map */

@@ -1,0 +1,33 @@
+@import '../universal-styles.scss';
+
+.join-today {
+    display: flex;
+    align-items: center;
+    padding: 5rem 2rem;
+    border-top: 1px solid $primary1;
+
+    p {
+        width: 65%;
+    }
+    
+    button {
+        padding: 10px;
+        height: 40px;
+        margin: 0 1rem;
+        border: none;
+        border-radius: 5%;
+        cursor: pointer;
+        width: 5rem;
+        color: #fff;
+    }
+
+    .primary-btn1 {
+        background-color: $primary1;
+        width: 7rem;
+    }
+
+    .primary-btn2 {
+        background-color: $primary2;
+        margin-left: 8rem;
+    }
+}

@@ -1,0 +1,68 @@
+@import '../universal-styles.scss';
+
+.about-section {
+    text-align: center;
+    color: $heading1-clr;
+    border-bottom: 1px solid $primary1;
+    padding-bottom: 2rem;
+}
+
+.company-synopsis {
+    margin: 3rem auto;
+    width: 85%;
+
+    h2 {
+        margin-bottom: 3rem;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+.our-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.service1, .service2, .service3 {
+    border: 1px solid $border-main-clr;
+    border-radius: 2.5%;
+    width: 275px;
+    height: 325px;
+    box-shadow: -5px 5px 10px rgb(44, 44, 44);
+
+    .service-text-area {
+        width: 80%;
+        inset: 0;
+        margin: auto;
+
+        img {
+            border-radius: 50%;
+            width: 4rem;
+            margin: 1rem 0;
+        }
+    
+        h2 {
+            font-size: 1rem;
+            margin: 0.75rem 0;
+        }
+    
+        p {
+            font-size: $paragraph-fs;
+            color: $paragraph-clr;
+            margin-bottom: 0.75rem;
+        }
+    
+        a {
+            font-size: 0.75rem;
+            color: $learn-more-btn-clr;
+            &:hover {
+                color: $primary2;
+            }
+        }
+    }
+}
